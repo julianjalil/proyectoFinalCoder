@@ -60,5 +60,46 @@
 }
 
 /* Home styles - Finish */
+/* About styles - Start */
+.about__grid {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 10vh 50vh 10vh 60vh 10vh;
+  background-color: #111;
+  color: #D1E0DF;
+}
+
+.about__logo--modifier {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  color: #15635D;
+  font-size: 1.5em;
+}
+
+.about__title--modifier {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #15635D;
+  font-size: 2.5em;
+}
+
+.about__subTitle--modifier {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  color: #15635D;
+  font-size: 1.5em;
+}
+
+.about__content--modifier {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.about__linkCV--modifier {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+/* About styles - Finish */
 
 /*# sourceMappingURL=styles.css.map */
