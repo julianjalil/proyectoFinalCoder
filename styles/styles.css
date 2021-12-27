@@ -140,5 +140,31 @@
 }
 
 /* Skills styles - Finish */
+/* Work styles - Start */
+.work__modifier {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 10vh 30vh 60vh;
+  background-color: #111;
+}
+
+.work__logo--modifier {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.work__title--modifier {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 2.5em;
+  color: #15635D;
+}
+
+.work__slides--modifier {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+/* Work styles - Finish */
 
 /*# sourceMappingURL=styles.css.map */
