@@ -113,3 +113,44 @@ $extra2: #5A6160;
 }
 
 /* About styles - Finish */
+
+/* Skills styles - Start */
+
+.sk__grid {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 10vh 30vh 10vh 50vh;
+    background-color: $background;
+    color: $text;
+}
+
+.sk__logo--modifier {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: $title;
+}
+
+.sk__title--modifier {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: $title;
+    font-size: 2.5em;
+}
+
+.sk__content--modifier {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.sk__icons--modifier {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    font-size: 4em;
+    align-content: center;
+    color: $title;
+    i {
+        padding: 10px 40px 5px 40px;
+    }
+}
+
+/* Skills styles - Finish */
