@@ -1,5 +1,5 @@
 // color-pallet
-$background: #000;
+$background: #111;
 $title: #15635D;
 $text: #D1E0DF;
 $details: #A4B0AF;
@@ -11,3 +11,62 @@ $extra2: #5A6160;
     margin: 0;
     padding: 0;
 }
+
+/* Home styles - Start */
+
+.home__grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20vh 80vh;
+    background-color: $background;
+}
+
+.home__logo--modifier {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 2.5em;
+    padding: 5px 0 0 50px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.home__nav--modifier {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: start;
+    padding: 10px;
+    ul {
+        li:hover {
+            transform: scale(1.2);
+            transform: translateY(3px);
+            cursor: pointer;
+            transition: 500ms;
+        }
+    }
+}
+
+.home__title--modifier {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+    color: $title;
+    h1 {
+        font-size: 3.5em;
+        padding: 0 0 0 50px;
+    }
+}
+
+.home__img--modifier {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: center;
+    justify-self: center;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+/* Home styles - Finish */
